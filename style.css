@@ -13,7 +13,7 @@ body{
     background-attachment: fixed;
     padding:160px 180px;
     color:white;
-    height: 699.79px;
+    height: 500px;
 }
 .banner-head-content{
     width:480px;
@@ -48,3 +48,53 @@ body{
     background-color: blue;
 }
 /* _________________Banner Section(header) end_________________ */
+
+/* ______________Explore-More-section-Start_______________ */
+ .Explore-More-section
+{
+    padding:100px 170px 0px; 
+    display:flex;
+    justify-content: space-between;
+}
+.Explore-More-section-content{
+    width:493px;
+    height:374px;
+ }
+  iframe{
+      border-radius:5px;
+} 
+ 
+.header-2{
+    font-size: 40px;
+    font-weight:700;
+    
+    
+    
+}
+.main-content{
+    font-size:16px;
+    font-weight: 400;
+    color:#707070;
+    
+     
+    
+}
+ .Explore-More-image img{
+    width:456px;
+    height:460px;
+} 
+/* ______________Explore-More-section-End_______________ */
+.third-section{
+    padding:40px;
+  
+    display:flex;
+}
+.third-section-content{
+    width:500px;
+    height:184px;
+    text-align: center;
+    margin: auto;
+    
+    
+    
+ }
