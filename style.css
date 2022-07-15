@@ -1,0 +1,50 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    padding:0;
+}
+/* _________________Banner Section(header) Start_________________ */
+.banner-section{
+    
+    background-image:linear-gradient(to left,rgba(245,246,252,0.1),
+    rgba(0,0,0,1)),url(./images/qurbani-hat.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:160px 180px;
+    color:white;
+    height: 699.79px;
+}
+.banner-head-content{
+    width:480px;
+    height:84px;
+    
+
+}
+.banner-head{
+    font-size:55px;
+    font-weight:800;
+   
+}
+.banner-content{
+    font-size:18px;
+    font-weight:400;
+}
+.bannar-btn{
+    padding:15px 20px;
+    border-radius:5px;
+    border:none;
+    background-color:#EF233C;
+    color:white;
+    font-size: 20px;
+    margin-top:30px;
+    
+}
+.btn-link{
+    text-decoration: none;
+    color:white;
+}
+.bannar-btn:hover{
+    background-color: blue;
+}
+/* _________________Banner Section(header) end_________________ */
