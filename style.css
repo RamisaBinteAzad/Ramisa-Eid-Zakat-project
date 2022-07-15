@@ -7,7 +7,7 @@ body{
 .banner-section{
     
     background-image:linear-gradient(to left,rgba(245,246,252,0.1),
-    rgba(0,0,0,1)),url(./images/qurbani-hat.jpeg);
+    rgba(0,0,0,1)),url(./images/qurbani.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -72,7 +72,7 @@ body{
     
 }
 .main-content{
-    font-size:16px;
+    font-size:18px;
     font-weight: 400;
     color:#707070;
     
@@ -80,21 +80,50 @@ body{
     
 }
  .Explore-More-image img{
-    width:456px;
-    height:460px;
+    width:410px;
+    height:430px;
+    border-radius:5px;
 } 
 /* ______________Explore-More-section-End_______________ */
 .third-section{
     padding:40px;
+    width:60%;
+    margin:0 auto;
+    
+    
   
-    display:flex;
+     
 }
 .third-section-content{
     width:500px;
     height:184px;
     text-align: center;
     margin: auto;
+    margin-bottom:40px;
     
+}
+.direct-help-div{
+    width:50%;
+    height:50%;
+    margin-top:20px;
+    margin-right:20px;
+    display: flex;
+    background-color:#FEF4F5;
+    justify-content:space-around;
+    padding:10px 18px;
+     
+    border-radius:5px;
+}
+.direct-help-section{
+    display: flex;
+    justify-content:space-between;
+}
+h4{
+    font-size:20px;
+    font-weight: 700;
+}
+.direct-help-div-left{
+    margin-top:30px;
+    margin-right: 30px;
     
-    
- }
+}
